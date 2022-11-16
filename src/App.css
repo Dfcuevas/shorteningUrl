@@ -1,0 +1,20 @@
+.pseudo-element::before {
+  content: "";
+  height: 800px;
+  width: 10px;
+  background-color: hsl(180, 66%, 49%);
+  position: absolute;
+  left: 49%;
+}
+
+@media screen and (min-width: 1280px) {
+  .pseudo-element::before {
+    content: "";
+    height: 10px;
+    width: 800px;
+    background-color: hsl(180, 66%, 49%);
+    position: absolute;
+    left: 10%;
+    top: 45%;
+  }
+}

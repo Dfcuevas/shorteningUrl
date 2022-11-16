@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /*primary colors */
+  --cyan: hsl(180, 66%, 49%);
+  --darkViolet: hsl(257, 27%, 26%);
+
+  /* Secondary Colors */
+  --red: hsl(0, 87%, 67%);
+
+  /* Neutral colors */
+  --gray: hsl(0, 0%, 75%);
+  --grayishViolet: hsl(257, 7%, 63%);
+  --veryDarkBlue: hsl(255, 11%, 22%);
+  --veryDarkViolet: hsl(260, 8%, 14%);
+
+  /* Fonts */
+
+  --fontSize: 18px;
+  --fontFamily: "Poppins", sans-serif;
+}
+
+html {
+  font-size: var(--fontSize);
+}
+
+body {
+  font-family: var(--fontFamily);
+}
